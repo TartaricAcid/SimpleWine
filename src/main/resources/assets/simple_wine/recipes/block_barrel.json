@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "simple_wine:block_barrel"
+  },
+  "pattern": [
+    "ccc",
+    "g g",
+    "ccc"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "g": {
+        "item": "minecraft:planks",
+        "data": 0
+    },
+    "c": {
+      "item": "minecraft:planks",
+      "data": 1
+    }
+  }
+}

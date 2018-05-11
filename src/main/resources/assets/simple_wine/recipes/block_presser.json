@@ -1,0 +1,24 @@
+{
+  "result": {
+    "item": "simple_wine:block_presser"
+  },
+  "pattern": [
+    "ccc",
+    "a a",
+    "ggg"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "g": {
+      "item": "minecraft:planks",
+      "data": 1
+    },
+    "c": {
+      "item": "minecraft:cobblestone"
+    },
+    "a": {
+      "item": "minecraft:planks",
+      "data": 0
+    }
+  }
+}

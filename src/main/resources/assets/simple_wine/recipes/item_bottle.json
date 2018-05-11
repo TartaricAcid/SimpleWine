@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "simple_wine:item_bottle",
+    "count": 5
+  },
+  "pattern": [
+    " g ",
+    "g g",
+    "ggg"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "g": {
+      "type": "forge:ore_dict",
+      "ore": "blockGlass"
+    }
+  }
+}

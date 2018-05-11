@@ -1,0 +1,16 @@
+[
+{
+  "modid": "simple_wine",
+  "name": "Simple Wine",
+  "description": "A Simple And Easy Mod That Add Wine To Minecraft",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["TartaricAcid"],
+  "credits": "ustc-zzzz, mcjty",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

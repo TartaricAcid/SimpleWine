@@ -1,0 +1,70 @@
+# Simple Wine Language File
+# Please Use UTF-8 Without BOM Encoding
+
+# Tabs
+itemGroup.simple_wine.tabs=Simple Wine
+
+# Items
+item.simple_wine.item_grape.name=Grape
+item.simple_wine.item_residue.name=Residue
+item.simple_wine.item_grape_juice.name=Grape Juice Bucket
+item.simple_wine.item_bottle.name=Glass Bottle
+item.simple_wine.item_tartaric.name=Tartaric
+item.simple_wine.item_wine.name=Wine
+
+# Blocks
+tile.simple_wine.block_presser.name=Wooden Presser
+tile.simple_wine.block_barrel.name=Wooden Barrel
+
+# ToolTips
+tooltips.simple_wine.item_grape=§8Trading With Farmers
+tooltips.simple_wine.item_residue=§8A White Elephant? Maybe...
+tooltips.simple_wine.item_grape_juice=§8Wa Ha Ha...
+tooltips.simple_wine.block_presser=§8Stand On It!
+tooltips.simple_wine.item_wine=§8So Many Wine!
+tooltips.simple_wine.item_bottle=§8Just A Bottle!
+tooltips.simple_wine.block_barrel=§8Y < 60 and Can't See The Sky!
+tooltips.simple_wine.item_tartaric=§8Baka! Baka! Baka!
+
+# Info
+simple_wine.grape_num.info=Grape Num: %d
+simple_wine.residue_num.info=Residue Num: %d
+simple_wine.grape_juice.info=Juice Num: %d B
+simple_wine.grape_num.is_full.info=§c§lGrapes Is Full!
+simple_wine.sugar_num.info=Sugar Num: %d
+simple_wine.tartaric_num.info=Tartaric Num: %d
+simple_wine.wine_num.info=Wine Num: %d B
+simple_wine.wine_percent.info=Process: %d
+
+# JEI
+jei.simple_wine.item_grape=\nCan be obtained by trading with farmers.\n\nBasic materials used for making wine.
+
+# Waila
+waila.simple_wine.grape_num=Grape Num:
+waila.simple_wine.residue_num=Residue Num:
+waila.simple_wine.grape_juice=Grape Juice:
+waila.simple_wine.grape_percent=Progress:
+waila.simple_wine.sugar_num=Sugar Num:
+waila.simple_wine.tartaric_num=Tartaric Num:
+waila.simple_wine.wine_num=Wine Num:
+waila.simple_wine.wine_percent=Process:
+waila.simple_wine.y_is_too_high=§c§lY Is Too High!
+
+# Guide API Main
+book.simple_wine.tile=Simple Wine Guide Book
+book.simple_wine.display_name=Simple Wine Guide
+book.simple_wine.welcome_message=Simple Wine Mod
+
+# Guide API Category
+book.simple_wine.grape_wiki=Grape Wiki
+book.simple_wine.get_grape=How To Get Grape?
+book.simple_wine.presser_usage=How To Use Presser?
+book.simple_wine.barrel_usage=How To Use Barrel?
+book.simple_wine.tartaric_usage=Tartaric? What's This?
+
+# Guide API Page
+book.simple_wine.get_grape.page=Can be obtained by trading with farmers, a emerald can get 24-32 grapes.\n\nBasic materials used for making wine.\n\nNext page show the village trade.
+book.simple_wine.grape_wiki.page=A grape is a fruit, botanically a berry, of the deciduous woody vines of the flowering plant genus Vitis. \n\nGrapes can be eaten fresh as table grapes or they can be used for making wine, jam, juice, jelly, grape seed extract, raisins, vinegar, and grape seed oil.
+book.simple_wine.presser.page=Hold grape right the presser to plug in, any entity standing on the top can be pressed.\n\nHold bucket right click presser can get grape juice bucket, and hold stick right-click to remove the residue.
+book.simple_wine.barrel.page=Hold grape juice bucket right-click barrel to pump in, and hold sugar right-click barrel to plug in.\n\nFour condition:\n1. Y < 60\n2. Can't see sky\n3. Enough sugar/grape juice\n4. No residue of wine/tartaric
+book.simple_wine.tartaric.page=Tartaric acid is a by-product of wine making.\n\nyou can trade with farmer to get a author's skull.
