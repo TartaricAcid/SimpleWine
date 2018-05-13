@@ -2,9 +2,8 @@ package github.baka943.simplewine.proxy;
 
 import github.baka943.simplewine.SimpleWine;
 import github.baka943.simplewine.SimpleWineCreativeTabs;
-import github.baka943.simplewine.block.BlockBarrel;
-import github.baka943.simplewine.block.BlockLoader;
-import github.baka943.simplewine.block.BlockPresser;
+import github.baka943.simplewine.block.*;
+import github.baka943.simplewine.entity.EntityLoader;
 import github.baka943.simplewine.item.*;
 import github.baka943.simplewine.tiltentity.TileEntityBarrel;
 import github.baka943.simplewine.tiltentity.TileEntityPresser;
@@ -31,6 +30,8 @@ public class CommonProxy {
 
     public void preInit(FMLPreInitializationEvent event) {
         simpleWineCreativeTabs = new SimpleWineCreativeTabs(SimpleWine.MODID + ".tabs");
+        EntityLoader.registerEntities();
+        EntityLoader.registerEntitiesSpawn();
     }
 
     public void init(FMLInitializationEvent event) {
@@ -54,12 +55,16 @@ public class CommonProxy {
 
         event.getRegistry().register(new ItemBlock(BlockLoader.blockPresser).setRegistryName(BlockLoader.blockPresser.getRegistryName()));
         event.getRegistry().register(new ItemBlock(BlockLoader.blockBarrel).setRegistryName(BlockLoader.blockBarrel.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(BlockLoader.blockBamboo).setRegistryName(BlockLoader.blockBamboo.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(BlockLoader.blockBambooShoot).setRegistryName(BlockLoader.blockBambooShoot.getRegistryName()));
     }
 
     @SubscribeEvent
     public static void registerBlocks(RegistryEvent.Register<Block> event) {
         event.getRegistry().register(new BlockPresser());
         event.getRegistry().register(new BlockBarrel());
+        event.getRegistry().register(new BlockBamboo());
+        event.getRegistry().register(new BlockBambooShoot());
 
         GameRegistry.registerTileEntity(TileEntityPresser.class, SimpleWine.MODID + ".tileentity_presser");
         GameRegistry.registerTileEntity(TileEntityBarrel.class, SimpleWine.MODID + ".tileentity_barrel");

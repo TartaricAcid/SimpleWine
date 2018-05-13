@@ -9,6 +9,10 @@ public class BlockLoader {
     public static BlockPresser blockPresser;
     @ObjectHolder("simple_wine:block_barrel")
     public static BlockBarrel blockBarrel;
+    @ObjectHolder("simple_wine:block_bamboo")
+    public static BlockBamboo blockBamboo;
+    @ObjectHolder("simple_wine:block_bamboo_shoot")
+    public static BlockBambooShoot blockBambooShoot;
 
     public BlockLoader() {
     }
@@ -17,5 +21,7 @@ public class BlockLoader {
     public static void initModels() {
         blockPresser.initModel();
         blockBarrel.initModel();
+        blockBamboo.initModel();
+        blockBambooShoot.initModel();
     }
 }

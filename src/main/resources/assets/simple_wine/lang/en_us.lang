@@ -15,6 +15,11 @@ item.simple_wine.item_wine.name=Wine
 # Blocks
 tile.simple_wine.block_presser.name=Wooden Presser
 tile.simple_wine.block_barrel.name=Wooden Barrel
+tile.simple_wine.block_bamboo.name=Bamboo
+tile.simple_wine.block_bamboo_shoot.name=Bamboo Shoot
+
+# Entities
+entity.entity_panda.name=Panda
 
 # ToolTips
 tooltips.simple_wine.item_grape=§8Trading With Farmers
