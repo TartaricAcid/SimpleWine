@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "simple_wine:block_bamboo"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

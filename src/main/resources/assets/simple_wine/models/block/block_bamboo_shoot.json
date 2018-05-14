@@ -1,0 +1,7 @@
+{
+	"parent":"block/cross",
+	"textures": {
+		"cross": "simple_wine:blocks/block_bamboo_shoot",
+		"particle": "simple_wine:blocks/block_bamboo_shoot"
+	}
+}

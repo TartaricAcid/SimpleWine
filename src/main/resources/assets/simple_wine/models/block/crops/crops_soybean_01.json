@@ -1,0 +1,6 @@
+{
+	"parent":"block/crop",
+	"textures": {
+		"crop": "simple_wine:blocks/crops/soybean_01"
+	}
+}
