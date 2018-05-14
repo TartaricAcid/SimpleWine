@@ -52,11 +52,13 @@ public class CommonProxy {
         event.getRegistry().register(new ItemBottle());
         event.getRegistry().register(new ItemTartaric());
         event.getRegistry().register(new ItemWine());
+        event.getRegistry().register(new SeedSoybean());
 
         event.getRegistry().register(new ItemBlock(BlockLoader.blockPresser).setRegistryName(BlockLoader.blockPresser.getRegistryName()));
         event.getRegistry().register(new ItemBlock(BlockLoader.blockBarrel).setRegistryName(BlockLoader.blockBarrel.getRegistryName()));
         event.getRegistry().register(new ItemBlock(BlockLoader.blockBamboo).setRegistryName(BlockLoader.blockBamboo.getRegistryName()));
         event.getRegistry().register(new ItemBlock(BlockLoader.blockBambooShoot).setRegistryName(BlockLoader.blockBambooShoot.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(BlockLoader.cropsSoybean).setRegistryName(BlockLoader.cropsSoybean.getRegistryName()));
     }
 
     @SubscribeEvent
@@ -65,6 +67,7 @@ public class CommonProxy {
         event.getRegistry().register(new BlockBarrel());
         event.getRegistry().register(new BlockBamboo());
         event.getRegistry().register(new BlockBambooShoot());
+        event.getRegistry().register(new CropsSoybean());
 
         GameRegistry.registerTileEntity(TileEntityPresser.class, SimpleWine.MODID + ".tileentity_presser");
         GameRegistry.registerTileEntity(TileEntityBarrel.class, SimpleWine.MODID + ".tileentity_barrel");

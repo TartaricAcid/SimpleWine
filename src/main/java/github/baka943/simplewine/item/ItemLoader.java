@@ -17,6 +17,8 @@ public class ItemLoader {
     public static ItemTartaric itemTartaric;
     @GameRegistry.ObjectHolder("simple_wine:item_wine")
     public static ItemWine itemWine;
+    @GameRegistry.ObjectHolder("simple_wine:seed_soybean")
+    public static SeedSoybean seedSoybean;
 
     @SideOnly(Side.CLIENT)
     public static void initModels() {
@@ -26,5 +28,6 @@ public class ItemLoader {
         itemBottle.initModel();
         itemTartaric.initModel();
         itemWine.initModel();
+        seedSoybean.initModel();
     }
 }

@@ -13,6 +13,8 @@ public class BlockLoader {
     public static BlockBamboo blockBamboo;
     @ObjectHolder("simple_wine:block_bamboo_shoot")
     public static BlockBambooShoot blockBambooShoot;
+    @ObjectHolder("simple_wine:crops_soybean")
+    public static CropsSoybean cropsSoybean;
 
     public BlockLoader() {
     }
@@ -23,5 +25,6 @@ public class BlockLoader {
         blockBarrel.initModel();
         blockBamboo.initModel();
         blockBambooShoot.initModel();
+        cropsSoybean.initModel();
     }
 }

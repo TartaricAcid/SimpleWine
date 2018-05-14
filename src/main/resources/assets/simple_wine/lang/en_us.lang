@@ -11,6 +11,7 @@ item.simple_wine.item_grape_juice.name=Grape Juice Bucket
 item.simple_wine.item_bottle.name=Glass Bottle
 item.simple_wine.item_tartaric.name=Tartaric
 item.simple_wine.item_wine.name=Wine
+item.simple_wine.seed_soybean.name=Soybean
 
 # Blocks
 tile.simple_wine.block_presser.name=Wooden Presser
