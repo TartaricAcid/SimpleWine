@@ -25,9 +25,4 @@ public class CropsSoybean extends BlockCrops {
     protected Item getCrop() {
         return ItemLoader.seedSoybean;
     }
-
-    @SideOnly(Side.CLIENT)
-    public void initModel() {
-        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(this), 0, new ModelResourceLocation(this.getRegistryName(), "inventory"));
-    }
 }

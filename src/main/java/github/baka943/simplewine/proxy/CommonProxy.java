@@ -6,6 +6,7 @@ import github.baka943.simplewine.block.*;
 import github.baka943.simplewine.entity.EntityLoader;
 import github.baka943.simplewine.item.*;
 import github.baka943.simplewine.tiltentity.TileEntityBarrel;
+import github.baka943.simplewine.tiltentity.TileEntityMill;
 import github.baka943.simplewine.tiltentity.TileEntityPresser;
 import github.baka943.simplewine.trade.VillageTradeGrape;
 import github.baka943.simplewine.trade.VillageTradeTartaric;
@@ -58,7 +59,8 @@ public class CommonProxy {
         event.getRegistry().register(new ItemBlock(BlockLoader.blockBarrel).setRegistryName(BlockLoader.blockBarrel.getRegistryName()));
         event.getRegistry().register(new ItemBlock(BlockLoader.blockBamboo).setRegistryName(BlockLoader.blockBamboo.getRegistryName()));
         event.getRegistry().register(new ItemBlock(BlockLoader.blockBambooShoot).setRegistryName(BlockLoader.blockBambooShoot.getRegistryName()));
-        event.getRegistry().register(new ItemBlock(BlockLoader.cropsSoybean).setRegistryName(BlockLoader.cropsSoybean.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(BlockLoader.blockMill).setRegistryName(BlockLoader.blockMill.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(BlockLoader.blockBuild).setRegistryName(BlockLoader.blockBuild.getRegistryName()));
     }
 
     @SubscribeEvent
@@ -68,8 +70,11 @@ public class CommonProxy {
         event.getRegistry().register(new BlockBamboo());
         event.getRegistry().register(new BlockBambooShoot());
         event.getRegistry().register(new CropsSoybean());
+        event.getRegistry().register(new BlockMill());
+        event.getRegistry().register(new BlockBuild());
 
         GameRegistry.registerTileEntity(TileEntityPresser.class, SimpleWine.MODID + ".tileentity_presser");
         GameRegistry.registerTileEntity(TileEntityBarrel.class, SimpleWine.MODID + ".tileentity_barrel");
+        GameRegistry.registerTileEntity(TileEntityMill.class, SimpleWine.MODID + ".tileentity_mill");
     }
 }

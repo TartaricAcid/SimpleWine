@@ -1,0 +1,19 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "custom": {
+      "flip-v": true
+    }
+  },
+  "variants": {
+    "is_top=false": {
+      "model": "simple_wine:mill_down.obj"
+    },
+    "is_top=true": {
+      "model": "simple_wine:mill_top.obj"
+    },
+    "inventory": {
+      "model": "simple_wine:block_mill"
+    }
+  }
+}

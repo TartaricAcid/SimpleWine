@@ -2,6 +2,7 @@
     "pack": {
         "description": "Simple Wine Mod Assets",
         "pack_format": 3,
-        "_comment": "A Simple And Easy Mod That Add Wine To Minecraft"
+        "_comment": "A Simple And Easy Mod That Add Wine To Minecraft",
+        "_credit": "Cirno obj model come from www.turbosquid.com, and made by Kutejnikov, use Royalty Free License"
     }
 }

@@ -18,6 +18,8 @@ tile.simple_wine.block_presser.name=Wooden Presser
 tile.simple_wine.block_barrel.name=Wooden Barrel
 tile.simple_wine.block_bamboo.name=Bamboo
 tile.simple_wine.block_bamboo_shoot.name=Bamboo Shoot
+tile.simple_wine.block_mill.name=Stone Mill
+tile.simple_wine.block_build.name=⑨
 
 # Entities
 entity.entity_panda.name=Panda

@@ -20,7 +20,6 @@ public class JEILoader implements IModPlugin {
         // 黑名单，隐藏不必要的东西
         IIngredientBlacklist blacklist = registry.getJeiHelpers().getIngredientBlacklist();
         blacklist.addIngredientToBlacklist(ItemLoader.itemWine.getDefaultInstance());
-        blacklist.addIngredientToBlacklist(Item.getItemFromBlock(BlockLoader.cropsSoybean).getDefaultInstance());
 
         // 注册自定义描述
         registry.addDescription(new ItemStack(ItemLoader.itemGrape), "jei.simple_wine.item_grape");
